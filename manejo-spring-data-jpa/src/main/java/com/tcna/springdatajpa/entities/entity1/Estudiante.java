@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class Estudiante {
+//Un estudiante puede tener una direccion. Relacion OneToOne
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

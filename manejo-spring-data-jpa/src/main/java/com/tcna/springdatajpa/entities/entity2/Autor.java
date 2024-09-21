@@ -9,7 +9,7 @@ import java.util.List;
 @Data
 @Entity
 public class Autor {
-
+//Un autor puede tener muchos libros. Relacion OneToMany
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
