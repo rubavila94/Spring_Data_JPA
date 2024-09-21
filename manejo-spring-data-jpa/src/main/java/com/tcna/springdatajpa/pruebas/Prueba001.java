@@ -2,11 +2,10 @@ package com.tcna.springdatajpa.pruebas;
 
 import com.tcna.springdatajpa.entities.entity1.Direccion;
 import com.tcna.springdatajpa.entities.entity1.Estudiante;
-import com.tcna.springdatajpa.repositories.repository1.DireccionRepository;
+// import com.tcna.springdatajpa.repositories.repository1.DireccionRepository;
 import com.tcna.springdatajpa.repositories.repository1.EstudianteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 //@Component
 public class Prueba001 implements CommandLineRunner {
@@ -14,8 +13,8 @@ public class Prueba001 implements CommandLineRunner {
     @Autowired
     private EstudianteRepository estudianteRepository;
 
-    @Autowired
-    private DireccionRepository direccionRepository;
+    // @Autowired
+    // private DireccionRepository direccionRepository;
 
     @Override
     public void run(String... args) throws Exception {
