@@ -8,7 +8,7 @@ import com.tcna.springdatajpa.entities.entity4.Propietario;
 import com.tcna.springdatajpa.repositories.repository4.AutomovilRepository;
 import com.tcna.springdatajpa.repositories.repository4.PropietarioRepository;
 
-@Component
+//@Component
 public class prueba004 implements CommandLineRunner {
     // Inyectamos los repositorios que hemos creado
     @Autowired

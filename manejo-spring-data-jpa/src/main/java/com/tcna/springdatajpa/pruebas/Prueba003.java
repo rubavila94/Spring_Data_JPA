@@ -10,7 +10,7 @@ import com.tcna.springdatajpa.entities.entity3.Revista;
 import com.tcna.springdatajpa.repositories.repository3.EditorRepository;
 import com.tcna.springdatajpa.repositories.repository3.RevistaRepository;
 
-@Component
+//@Component
 public class Prueba003 implements CommandLineRunner {
     @Autowired
     private EditorRepository editorRepository;
