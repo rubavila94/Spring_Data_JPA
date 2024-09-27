@@ -11,7 +11,7 @@ import com.tcna.springdatajpa.repositories.repository5.EquipoRepository;
 import com.tcna.springdatajpa.repositories.repository5.JugadorRepository;
 
 //Inyectamos los repositorios que hemos creado
-@Component
+//@Component
 
 //Transactional asegura que todas las operaciones en el método
 //se ejecutan dentro de una sola transaccion
