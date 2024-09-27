@@ -9,7 +9,7 @@ import com.tcna.springdatajpa.entities.entity6.Vuelo;
 import com.tcna.springdatajpa.repositories.repository6.AerolineaRepository;
 import com.tcna.springdatajpa.repositories.repository6.VueloRepository;
 
-@Component
+//@Component
 public class Prueba006 implements CommandLineRunner{
 
     @Autowired
